@@ -22,5 +22,7 @@ time.sleep(1)
 
 while True:
     line = arduino.readline().decode('utf-8').strip() # --> Reads from arduino and checks for newline from the serial printlns
-    target_scalar = int(line) / 100.0 # Convert % to (0-1) scalar val. for pycaw 
-    volume.SetMasterVolumeLevelScalar(target_scalar, None) # Set the master volume to the target_scalar
+    if line:
+        target_percent = int(line)
+        target_scalar =  target_percent / 100.0 # Convert % to (0-1) scalar val. for pycaw 
+        volume.SetMasterVolumeLevelScalar(target_scalar, None) # Set the master volume to the target_scalar
