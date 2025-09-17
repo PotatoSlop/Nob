@@ -1,0 +1,18 @@
+.PER561-P115-N0015 :1 ;56 mm Low Profile Incremental Ring Encoder
+PER561P115N0015
+*STM IC
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8" 9="9" 10="10" 11="11" 12="12"
+*MXP 12
+*DFN PER561-P115-N0015
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (PER561-P115-N0015)
+~!Mouser Part Number (652-PER561P115N0015)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Bourns/PER561-P115-N0015?qs=IS%252B4QmGtzzrAUR9c1BGEfg%3D%3D)
+~!Arrow Part Number (PER561-P115-N0015)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/per561-p115-n0015/bourns?region=nac)
+~!Link Datasheet (https://www.bourns.com/engineering/PER56/PER56.stp)
+~!Height (10.95mm)
+~!3D_Model (PER561-P115-N0015)
+PER561-P115-N0015
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 

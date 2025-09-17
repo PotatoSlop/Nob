@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=PER561-P115-N0015
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=12
+Version=1.2
+Released=2023-04-22 11:27:47
+Downloaded=2025-09-14 22:16:08
+3D=Y

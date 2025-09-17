@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PER561-P115-N0015"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-04-22-11:30:49)
+    (mountForm default
+        (footprintRef "PER561P115N0015")
+        (spec "System")
+    )
+)

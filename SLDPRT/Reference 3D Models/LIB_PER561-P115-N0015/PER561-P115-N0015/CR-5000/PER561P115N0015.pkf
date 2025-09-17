@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "PER561P115N0015"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "PER561P115N0015")
+        (spec "default")
+    )
+)
