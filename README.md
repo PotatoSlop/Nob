@@ -29,11 +29,16 @@ The schematic for the circuit can also be accessed here: ![Schematic of Prototyp
 ---
 
 ### Mechanical Design ⚙️:
+
   The undertaking of designing around space and dimensional constraints was a major challenge. From the start, I understood the difficulty in designing around the concentric LCD display module, given the need to run cables from the display to the board without any entanglement that would result from the rotation of the knob. 
 
   After multiple iterations of designs and sketches of mechanisms, the standard KY-40 rotary encoder was determined to be suboptimal for the given configuration. If an LCD was mounted above the knob on top of the dial surface, the cables would have to run through the interior of the device and eventually wrap around/tangle on the encoder shaft. The only option for the use of this encoder would be to run the cables for the display externally. This, however, was a design sacrifice that violated the vision and principles of the project and thus eliminated the use of this encoder type entirely. 
 
+  ![Sketches of designs 📗](https://github.com/PotatoSlop/Nob/blob/main/docs/images/Ideas.pdf)
+
   With some research, it was settled that a PER56 ring encoder would suffice for this project. The decision to utilize a ring encoder came from a similar project dubbed the [Focus Dial](https://github.com/sb-ocr/focus-dial) by Salim Benbouziyane (sb-ocr) and Uwe Arzt (uwearzt). 
 
   Despite the central cavity being optimal for LCD wiring, the opening also means that a built-in push button is not available and must be implemented separately. To power this device, a Seeed Studio Xiao ESP32C6 is used for its support of Bluetooth 5.0, small footprint, sufficient pinouts, and support for battery charging via the USB-C port. To meet the wireless requirement, power is supplied via a standard 500 mAh LiPo battery whose 2-pin JST connection is stripped and the wires fully soldered to the ESP board. To minimize cost and simplify the design, a standard 12 mm push button (the same that is included in the Sparkfun kit) is used for the central push button system. 
+
+![WIP Current Design 9-17-25](docs/images/XRay.jpg)
 
