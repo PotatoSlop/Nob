@@ -1,5 +1,5 @@
 ![Nob Banner](https://github.com/PotatoSlop/Nob/blob/main/docs/images/Nob_Thumbnail_Text.jpg)
-### NOB is a WIP personal project to address a personal need for a reasonably priced and customizable rotary encoder for audio control. 
+### NOB is a WIP project to address a personal need for a reasonably priced and customizable rotary encoder for audio control. 
 ---
 ### Goals ☑️:
   After switching to a brand-new mechanical keyboard, I lost my built-in volume knob and missed the convenience of having a physical dial to control the volume of my music or videos. I wanted to build a wireless device that looks production-ready and has full functionality while maintaining a minimalistic approach and footprint on my small dorm room desk. 
