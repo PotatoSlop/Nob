@@ -37,20 +37,20 @@ The schematic for the prototype circuit can also be accessed here: ![Schematic o
 
   [Sketches of designs 📗](https://github.com/PotatoSlop/Nob/blob/main/docs/images/Ideas.pdf)
 
-  With some research, it was settled that a PER56 ring encoder would suffice for this project. The decision to utilize a ring encoder came from a similar project dubbed the [Focus Dial](https://github.com/sb-ocr/focus-dial) by Salim Benbouziyane (sb-ocr) and Uwe Arzt (uwearzt). 
+  With some research, it was settled that a hollow-shaft ring encoder (the Alps Alpine EC50A0920404) would suffice for this project. The decision to utilize a ring encoder came from a similar project dubbed the [Focus Dial](https://github.com/sb-ocr/focus-dial) by Salim Benbouziyane (sb-ocr) and Uwe Arzt (uwearzt). 
 
-  Despite the central cavity being optimal for LCD wiring, the opening also means that a built-in push button is not available and must be implemented separately. To power this device, a Seeed Studio Xiao ESP32C6 is used for its support of Bluetooth 5.0, small footprint, sufficient pinouts, and support for battery charging via the USB-C port. To meet the wireless requirement, power is supplied via a standard 500 mAh LiPo battery whose 2-pin JST connection is stripped and the wires fully soldered to the ESP board. To minimize cost and simplify the design, a standard 12 mm push button (the same that is included in the Sparkfun kit) is used for the central push button system. 
+  Despite the central cavity being optimal for LCD wiring, the opening also means that a built-in push button is not available and must be implemented separately. To power this device, a Seeed Studio XIAO ESP32-S3 is used for its support of Bluetooth 5.0, small footprint, sufficient pinouts, and support for battery charging via the USB-C port. To meet the wireless requirement, power is supplied via a standard 500 mAh LiPo battery whose 2-pin JST connection is stripped and the wires fully soldered to the ESP board. To minimize cost and simplify the design, a standard 12×12 mm momentary push button (SparkFun) is used for the central push button system. 
 
 ![WIP Current Design 9-17-25](docs/images/XRay.jpg)
 ---
   The parts can all be found online on various shopping platforms following:
-  - Ring Encoder: [Bourns](https://bourns.com/products/encoders/details/contacting-encoders/per56)
-  - ESP32C6: [Seeed Studio](https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32C6-p-5884.html?srsltid=AfmBOoqzKT3pEN_wFq-VWKFG-nFZg51tgOKhKECIqT7EIMbkc1jp4EuUsLw)
-  - Push-button: [SparkFun](https://www.sparkfun.com/multicolor-buttons-4-pack.html)
+  - Rotary Encoder (hollow shaft): [Alps Alpine EC50A0920404 — DigiKey](https://www.digikey.com/en/products/detail/alps-alpine/EC50A0920404/21721676)
+  - Microcontroller: [Seeed Studio XIAO ESP32-S3](https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html)
+  - Push-button (12×12 mm momentary): [SparkFun](https://www.sparkfun.com/momentary-pushbutton-switch-12mm-square.html)
+  - TFT LCD Display (1.28 in, GC9A01, SPI round): [AliExpress](https://www.aliexpress.us/item/3256808438527640.html)
+  - Battery (3.7 V 500 mAh LiPo, 702030): [AliExpress](https://www.aliexpress.us/item/3256809769151614.html)
   - Springs: [Amazon](https://www.amazon.com/gp/product/B0BVTDP29W/ref=ox_sc_act_title_1?smid=A68J46NETMDFM&th=1)
-  - Rubber Feet: [Amazon](https://www.amazon.com/Adhesive-Furniture-Bumpers-Cabinets-AUSTOR/dp/B074C2XKXH/ref=sr_1_6?crid=19UI8D3YPQ274&dib=eyJ2IjoiMSJ9.P-P4Y_hAXU0JP_YewUEa2FbVhspBSJvbAMJh-ZxtYgFEBdBpv3YxqjSLkQn6_c84gHcUDVdvVJ1JwwYbtwFMVnnr4YNLw0cqKKpoxOUmbyDe564pcrrOG0cwv11yGUzRHGUmDGub_37p2rbKvRAkptx8bxv70z5mcr8dvW7D94U0HEINzxxFRlF3XTH3MsxMcaN30QZIOE857FKrxMOTLPcX_ZPas551fXZF8sOL2qvNJWtDPmPLT_7cc8Xm7IzOSHlcL2acrbhprfvq_Lyrwvc2mmAbqtrU2fETqpXzNOE.CfXiQVandTmYE5bAj_TgTMXmWOG6U51l7nASbqEbWhA&dib_tag=se&keywords=rubber+feet&qid=1758152878&sprefix=rubber%2Caps%2C125&sr=8-6)
-  - Battery: [Aliexpress](https://www.aliexpress.us/item/3256807154846970.html?spm=a2g0o.cart.0.0.558e38daOT5NWP&mp=1&pdp_npi=5%40dis%21USD%21USD%208.23%21USD%205.02%21%21USD%205.02%21%21%21%40210318c317581527531163540e2356%2112000040337684710%21ct%21US%213133890330%21%211%210&gatewayAdapt=glo2usa)
-  - TFT LCD Display (1.28in): [Aliexpress](https://www.aliexpress.us/item/3256808111907531.html?spm=a2g0o.cart.0.0.558e38daOT5NWP&mp=1&pdp_npi=5%40dis%21USD%21USD%2010.25%21USD%2010.25%21%21USD%2010.25%21%21%21%40210318c317581527531163540e2356%2112000044536633369%21ct%21US%213133890330%21%211%210&gatewayAdapt=glo2usa)
+  - Rubber Feet (6×2 mm silicone, 100 pc): [AliExpress](https://www.aliexpress.us/item/3256806196171413.html)
 
 The bill of materials for this project comes out to just under **$50 USD** without the 3D printed components. _(This may vary depending on where parts are sourced and the shipping costs to your area)_
 
