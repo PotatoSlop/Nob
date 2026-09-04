@@ -1,4 +1,4 @@
-![Nob Banner](https://github.com/PotatoSlop/Nob/blob/main/docs/images/Nob_Thumbnail_Text.jpg)
+![Nob Banner](https://github.com/PotatoSlop/Nob/blob/main/docs/images/Nob_Thumbnail.jpg)
 ### NOB is a WIP project to address a personal need for a reasonably priced and customizable rotary encoder for audio control. 
 ---
 ### Goals ☑️:
@@ -10,7 +10,7 @@ Intended Features 💡:
 - Round LCD Display for resource and volume monitoring
 - Rotary encoder for granular volume/macro control
 - Push button functionality for muting and additional functions
-- 500 mAh battery life with USB-C charging interface
+- 400 mAh battery life with USB-C charging interface
 - Minimalistic puck design and wireless connectivity via Wi-Fi/BT
 
 ---
