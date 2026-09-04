@@ -39,7 +39,7 @@ The schematic for the prototype circuit can also be accessed here: ![Schematic o
 
   With some research, it was settled that a hollow-shaft ring encoder (the Alps Alpine EC50A0920404) would suffice for this project. The decision to utilize a ring encoder came from a similar project dubbed the [Focus Dial](https://github.com/sb-ocr/focus-dial) by Salim Benbouziyane (sb-ocr) and Uwe Arzt (uwearzt). 
 
-  Despite the central cavity being optimal for LCD wiring, the opening also means that a built-in push button is not available and must be implemented separately. To power this device, a Seeed Studio XIAO ESP32-S3 is used for its support of Bluetooth 5.0, small footprint, sufficient pinouts, and support for battery charging via the USB-C port. To meet the wireless requirement, power is supplied via a standard 500 mAh LiPo battery whose 2-pin JST connection is stripped and the wires fully soldered to the ESP board. To minimize cost and simplify the design, a standard 12×12 mm momentary push button (SparkFun) is used for the central push button system. 
+  Despite the central cavity being optimal for LCD wiring, the opening also means that a built-in push button is not available and must be implemented separately. To power this device, a Seeed Studio XIAO ESP32-S3 is used for its support of Bluetooth 5.0, small footprint, sufficient pinouts, and support for battery charging via the USB-C port. To meet the wireless requirement, power is supplied via a standard 500 mAh LiPo battery whose 2-pin JST connection is stripped and the wires fully soldered to the ESP board. To minimize cost and simplify the design, a standard 12×12 mm momentary push button (SparkFun) is used for the central push button system. Below is an early mockup cross section of the project:
 
 ![WIP Current Design 9-17-25](docs/images/XRay.jpg)
 ---
@@ -49,8 +49,7 @@ The schematic for the prototype circuit can also be accessed here: ![Schematic o
   - Push-button (12×12 mm momentary): [SparkFun](https://www.sparkfun.com/momentary-pushbutton-switch-12mm-square.html)
   - TFT LCD Display (1.28 in, GC9A01, SPI round): [AliExpress](https://www.aliexpress.us/item/3256808438527640.html)
   - Battery (3.7 V 500 mAh LiPo, 702030): [AliExpress](https://www.aliexpress.us/item/3256809769151614.html)
-  - Springs: [Amazon](https://www.amazon.com/gp/product/B0BVTDP29W/ref=ox_sc_act_title_1?smid=A68J46NETMDFM&th=1)
   - Rubber Feet (6×2 mm silicone, 100 pc): [AliExpress](https://www.aliexpress.us/item/3256806196171413.html)
 
-The bill of materials for this project comes out to just under **$50 USD** without the 3D printed components. _(This may vary depending on where parts are sourced and the shipping costs to your area)_
+The bill of materials for this project comes out to just under **$24 USD** without the 3D printed components. _(This may vary depending on where parts are sourced and the shipping costs to your area)_
 
